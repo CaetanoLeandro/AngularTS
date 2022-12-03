@@ -1,0 +1,9 @@
+<div class="class">
+  <div *ngIf="canShow">if you are seeing it is true!</div>
+  <h2 *ngIf="name === 'Goku'; else wrongName">The name is Goku</h2>
+  <ng-template #wrongName>
+    <div>
+      <h2>The wrong name!</h2>
+    </div>
+  </ng-template>
+</div>
