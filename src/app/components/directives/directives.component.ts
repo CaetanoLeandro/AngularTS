@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent implements OnInit {
-classes: string|string[]|Set<string>|{ [klass: string]: any; }|null|undefined;
-
   size = 40;
   font = 'Arial';
   color = 'blue';
