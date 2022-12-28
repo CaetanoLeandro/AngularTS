@@ -16,6 +16,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
 import { PipesComponent } from './components/pipes/pipes.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {MatIconModule} from '@angular/material/icon';
     PipesComponent
 
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, BrowserAnimationsModule, MatIconModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, 
+    BrowserAnimationsModule, MatIconModule,MatButtonToggleModule],
   providers: [],
   bootstrap: [AppComponent],
 
