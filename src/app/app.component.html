@@ -1,14 +1,24 @@
-<div class="class">
-  <h1> Angular#13! - Principal </h1>
-  <app-first-component></app-first-component>
-  <app-parent-data [userName]="userName" [userData]="userData"></app-parent-data>
-  <app-directives></app-directives>
-  <app-if-render></app-if-render>
-  <app-events></app-events>
-  <app-emiter></app-emiter>
-  <app-list-render></app-list-render>
-  <app-pipes></app-pipes>
-  <app-two-way-binding></app-two-way-binding>
-  <app-pipes></app-pipes>
-
-</div>
+<p>header</p>
+<nav>
+  <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+  <mat-button-toggle routerLink="/list"> List  Render</mat-button-toggle>
+  <mat-button-toggle routerLink="/number"> Change Number</mat-button-toggle>
+  <mat-button-toggle routerLink="/directives"> Diretives</mat-button-toggle>
+  <mat-button-toggle routerLink="/emiter"> Emiter</mat-button-toggle>
+  <mat-button-toggle routerLink="/events"> Events</mat-button-toggle>
+  <mat-button-toggle routerLink="/ifRender"> If Render</mat-button-toggle>
+  <mat-button-toggle routerLink="/data"> Data</mat-button-toggle>
+  <mat-button-toggle routerLink="/twoWay"> Two Way Binding</mat-button-toggle>   
+  </mat-button-toggle-group>
+</nav>
+<router-outlet></router-outlet>
+<!-- <h1> Angular#13! - Principal </h1>
+<app-first-component></app-first-component>
+<app-parent-data [userName]="userName" [userData]="userData"></app-parent-data>
+<app-directives></app-directives>
+<app-if-render></app-if-render>
+<app-events></app-events>
+<app-emiter></app-emiter>
+<app-list-render></app-list-render>
+<app-pipes></app-pipes> -->
+<p>footer</p>
