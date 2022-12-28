@@ -27,7 +27,6 @@ import { PipesComponent } from './components/pipes/pipes.component';
     ListRenderComponent,
     TwoWayBindingComponent,
     PipesComponent
-    TwoWayBindingComponent
 
   ],
   imports: [
