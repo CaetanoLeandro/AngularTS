@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipesComponent implements OnInit {
 
-  textTest2 = "Text test #2"
+  textTest2 = "Text test #2";
+  today = new Date();
 
   ngOnInit(): void {
   }
