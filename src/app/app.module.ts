@@ -10,6 +10,7 @@ import { EventsComponent } from './components/events/events.component';
 import { EmiterComponent } from './components/emiter/emiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     EventsComponent,
     EmiterComponent,
     ChangeNumberComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    TwoWayBindingComponent
+
   ],
   imports: [
     BrowserModule
