@@ -1,11 +1,24 @@
-<div class="class">
-  <h1> Angular#13! - Principal </h1>
-  <app-first-component></app-first-component>
-  <app-parent-data [userName]="userName" [userData]="userData"></app-parent-data>
-  <app-directives></app-directives>
-  <app-if-render></app-if-render>
-  <app-events></app-events>
-  <app-emiter></app-emiter>
-  <app-list-render></app-list-render>
-  <app-pipes></app-pipes>
-</div>
+<p>header</p>
+<nav>
+  <button mat-fab extended routerLink="/"><mat-icon>home</mat-icon></button>
+  <button  routerLink="/list"> List  Render</button >
+  <button  routerLink="/number"> Change Number </button >
+  <button  routerLink="/directives"> Diretives </button >
+  <button  routerLink="/emiter"> Emiter </button >
+  <button  routerLink="/events"> Events </button >
+  <button  routerLink="/ifRender"> If Render </button >
+  <button  routerLink="/pipes"> Pipes </button >
+  <button  routerLink="/data"> Data </button >
+  <button  routerLink="/twoWay"> Two Way Binding </button >
+</nav>
+<router-outlet></router-outlet>
+<!-- <h1> Angular#13! - Principal </h1>
+<app-first-component></app-first-component>
+<app-parent-data [userName]="userName" [userData]="userData"></app-parent-data>
+<app-directives></app-directives>
+<app-if-render></app-if-render>
+<app-events></app-events>
+<app-emiter></app-emiter>
+<app-list-render></app-list-render>
+<app-pipes></app-pipes> -->
+<p>footer</p>
