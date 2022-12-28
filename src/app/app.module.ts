@@ -8,6 +8,9 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
+import { EmiterComponent } from './components/emiter/emiter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
@@ -18,6 +21,9 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     DirectivesComponent,
     IfRenderComponent,
     EventsComponent,
+    EmiterComponent,
+    ChangeNumberComponent,
+    ListRenderComponent,
     TwoWayBindingComponent
   ],
   imports: [
